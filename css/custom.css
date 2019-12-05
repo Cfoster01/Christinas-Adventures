@@ -1,0 +1,34 @@
+//**** Font Familes ****// 
+font-family: 'Caveat',
+cursive;
+font-family: 'Shadows Into Light',
+cursive;
+font-family: 'Montserrat',
+sans-serif;
+font-family: 'Open Sans',
+sans-serif;
+
+//******************************** Hero image with text ********************************//
+.nav {
+    color: #ffffff;
+}
+
+.jumbotron {
+    /* Hero Text styles */
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('../img/aurora.JPG');
+    background-size: cover;
+    height: 100%;
+}
+
+.jumbotron h1 {
+    /* Text styles */
+    font-size: 5em;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.btn {
+    border-radius: 20px;
+}
