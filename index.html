@@ -87,9 +87,9 @@
 
     <form id="destintationForm">
         <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <label id="email" for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
             <div class="col-sm-10">
-                <input type="email" class="form-control col-8" id="inputEmail3" placeholder="Email">
+                <input type="email" class="form-control-lg col-auto" id="inputEmail3" placeholder="Email">
             </div>
         </div>
 
@@ -125,7 +125,7 @@
     <div class="container" style="height: auto; background-color: #F8F8F8">
         <div class="row align-items-center">
             <div class="col-6 col-md-4">
-                <img src="img/Headshot.JPG" alt="Christina standing in Switzerland" class="img-fluid img-thumbnail">
+                <img src="img/Headshot.JPG" id="mainImage" alt="Christina standing in Switzerland" class="img-fluid img-thumbnail image-cropper  profile-pic">
             </div>
             <div class="col-12 col-sm-6 col-md-8">
                 <p class="lead">Welcome to my site! I'm Christina, and I'm obsessed with traveling the world and planning my next great adventure. I hope you enjoy my stories, photos, and tips for planning your own scenic adventure!</p>
@@ -158,9 +158,9 @@
         <!-- IMAGE AND DETAIL CARDS -->
         <h4 class="text-center">Latest Photos</h4>
         <br>
-        <div class="row">
+        <div class="row" id="imageCards">
             <div class="col">
-                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;">
+                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;" id="primaryColumn">
                     <img src="/img/Ice_waterfall2.JPG" class="card-img-top" alt="Waterfall in Iceland">
                     <div class="card-body">
                         <p class="card-text">Waterfall in Iceland</p>
@@ -168,7 +168,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;">
+                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;" id="primaryColumn">
                     <img src="/img/Austria.JPG" class="card-img-top" alt="Blue Lagoon">
                     <div class="card-body">
                         <p class="card-text">Carriage Ride in Austria</p>
@@ -176,7 +176,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;">
+                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;" id="primaryColumn">
                     <img src="/img/Lights.JPG" class="card-img-top" alt="Horse in Iceland">
                     <div class="card-body">
                         <p class="card-text">Christmas Market in Germany</p>
@@ -184,7 +184,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;">
+                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;" id="secondaryColumn">
                     <img src="/img/Zurich_2.jpg" class="card-img-top" alt="Zurich">
                     <div class="card-body">
                         <p class="card-text">Street Decorations in Switzerland</p>
@@ -192,7 +192,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;">
+                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;" id="secondaryColumn">
                     <img src="/img/Toronto.jpg" class="card-img-top" alt="Zurich">
                     <div class="card-body">
                         <p class="card-text">Peace in Toronto, Canada</p>
@@ -200,7 +200,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;">
+                <div class="card text-center text-white bg-info mb-3" style="width: 18rem;" id="secondaryColumn">
                     <img src="/img/Niagara.jpg" class="card-img-top" alt="Zurich">
                     <div class="card-body">
                         <p class="card-text">Birds Over Niagara Falls</p>
