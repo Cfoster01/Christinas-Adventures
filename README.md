@@ -21,8 +21,11 @@ The class(es) I created are:
 3. .jumbotron h1
 .. Changed the font and font size of the text.
 
-4. .btn 
+4. .btn
 .. Changed the button appearance to have rounded edges.
+
+5. Media Queries
+.. Created three media queries (the first one is a faux query that allows the following two to function due to a glitch), which center the form, portrait, and image cards at two different smaller viewports.
 
 ```
 
