@@ -37,11 +37,20 @@ sans-serif;
     border-radius: 250px;
 }
 
-//******************************** Media Queries - First media query is random - Only picks up every media query after the first one ********************************//
+//*** Media Queries - First media query is random/fake - Glitch is causing it to only pick up every media query after the first one ***//
 
 @media screen and (min-width: 900px) {
     .display-4 {
         color: yellow !important
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #imageCards {
+        display: block;
+        margin-left: 100px;
+        margin-right: auto;
+        width: 50%;
     }
 }
 
@@ -59,16 +68,7 @@ sans-serif;
 
     #imageCards {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    #imageCards {
-        display: block;
-        margin-left: auto;
+        margin-left: 4.5rem;
         margin-right: auto;
         width: 50%;
     }
